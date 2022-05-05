@@ -820,6 +820,7 @@ GameObject:
   - component: {fileID: 786848720}
   - component: {fileID: 786848723}
   - component: {fileID: 786848724}
+  - component: {fileID: 786848725}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -916,6 +917,7 @@ MonoBehaviour:
   gameOverPage: {fileID: 1572911945}
   countdownPage: {fileID: 190962899}
   scoreText: {fileID: 1724245537}
+  ads: {fileID: 0}
 --- !u!114 &786848724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,6 +928,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38c0dfd2e3d669946a80e94de101edba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &786848725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786848718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ce038a5ac8144b4185353c41d666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &972887360

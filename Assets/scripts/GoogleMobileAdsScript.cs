@@ -14,6 +14,7 @@ public class GoogleMobileAdsScript : MonoBehaviour
     {
         MobileAds.Initialize(initStatus => { });
         this.RequestBanner();
+        this.RequestRewardedAd();
 
         // Called when an ad request has successfully loaded.
         this.rewardedAd.OnAdLoaded += HandleRewardedAdLoaded;

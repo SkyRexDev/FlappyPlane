@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Authentication
     - CountdownText
     - GameManager
     - GoogleMobileAdsScript
@@ -66,35 +67,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1650}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 1826}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3320}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3572}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 3698}
+      Script: {instanceID: 3626}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 5934}
+      Script: {instanceID: 5760}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 25698}
+      Script: {instanceID: 6160}
+    - Class: 114
+      Script: {instanceID: 22520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -226,6 +229,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
     className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 76adda36b79671a6f203d20c02ad90a4
+    assemblyName: Elringus.UnityGoogleDrive.Runtime.dll
+    namespaceName: UnityGoogleDrive
+    className: GoogleDriveSettings
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -468,16 +477,16 @@ ScriptsOnlyBuild:
     className: ApplicationQuit
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
-    className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
     className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -702,11 +711,23 @@ ScriptsOnlyBuild:
     className: HighscoreText
   - hash:
       serializedVersion: 2
-      Hash: 76adda36b79671a6f203d20c02ad90a4
-    assemblyName: Elringus.UnityGoogleDrive.Runtime.dll
-    namespaceName: UnityGoogleDrive
-    className: GoogleDriveSettings
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: PlayGamesHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: NearbyHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Authentication
   platform: 13
   scenePathNames:
   - Assets/scene/game.unity
-  playerPath: C:/Users/Guille/Desktop/FlappyPlane_UNITY/Flappy_Plane/flappyPlane.aab
+  playerPath: C:/Users/Guille/Desktop/Flappy_Plane/flappyPlane.aab
